@@ -1,0 +1,23 @@
+{
+  "name": "pricingpanel",
+  "version": "1.0.0",
+  "description": "Pricing Panel for my freelancer work!",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Varun-Bhabhra/PricingPanel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Varun-Bhabhra/PricingPanel/issues"
+  },
+  "homepage": "https://github.com/Varun-Bhabhra/PricingPanel#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.7"
+  }
+}
