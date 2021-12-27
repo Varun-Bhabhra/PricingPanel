@@ -19,5 +19,6 @@
   "homepage": "https://github.com/Varun-Bhabhra/PricingPanel#readme",
   "devDependencies": {
     "tailwindcss": "^3.0.7"
-  }
+  },
+  "dependencies": {}
 }
