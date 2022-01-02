@@ -565,11 +565,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-onePot {
-  background-image: url('./img/onePot.png');
+  background-image: url('../PricingPanel/img/onePot.png');
 }
 
 .bg-three {
-  background-image: url('./img/three.jpg');
+  background-image: url('../PricingPanel/img/three.jpg');
 }
 
 .bg-cover {
@@ -803,7 +803,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   .md\:bg-three {
-    background-image: url('./img/three.jpg');
+    background-image: url('../PricingPanel/img/three.jpg');
   }
 
   .md\:hover\:-translate-y-3:hover {
