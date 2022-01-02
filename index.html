@@ -10,13 +10,12 @@
   <link rel="stylesheet" href="./src/customStyles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
-<body class="bg-slate-800">
+<body class="bg-onePot md:bg-one bg-cover font-josefin text-zinc-800 mx-6 my-14">
   <!-- Loader -->
   <loader id="loader-wrapper" class="flex justify-center">
     <div id="loader" class="loadingio-spinner-rolling-11c31489herl">
@@ -81,20 +80,154 @@
       }
     </style>
   </loader>
-  <!-- Loader ends -->
 
-  <section class="my-20 md:flex justify-center gap-9 font-josefin">
+  <!-- Main Panel -->
+  <main class="">
 
-    <article id="panel-1" class="bg-slate-100 w-4/12 max-h-full rounded-lg">
-      <!-- <div class="w-full p-1 bg-red-400 rounded-t-lg"></div> -->
-      <h1 class="p-4 text-center text-3xl uppercase tracking-widest bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-t-lg ">Website</h1>
+    <!-- Heading -->
+    <header class="font-extrabold text-4xl text-center pb-10 md:mx-56">
+      Get started now, <br>Grow your <span class="text-[#fe345c]">Business</span> with a Website!
+      <p class="font-normal py-8 text-xl opacity-80">From building business cards to websites, <br> let me get it covered for you.</p>
+      <a href="#" class="px-4 py-2 text-3xl -2 rounded-full border-zinc-800 lg:hidden"> &darr;</a>
+    </header>
 
-      <article>
-        <h1>$4,999</h1>
+    <!-- Panels -->
+    <section id="panels" class="md:flex justify-center sm:gap-10 md:gap-18 lg:gap-24">
+      <article id="panel_one" class="rounded-xl bg-zinc-50 text-center mb-8 md:mb-0 shadow-2xl md:hover:-translate-y-3 md:hover:scale-105 transition-all">
+
+        <h1 class="p-4 bg-three bg-cover bg-top  text-2xl font-extrabold uppercase tracking-widest rounded-t-xl">Website</h1>
+
+        <h2 class="text-center text-5xl font-extrabold pt-8 pb-6">
+          <sup class="font-medium">₹</sup>5,999 <span class="text-lg opacity-80">onwards</span>
+          <p class="text-xs opacity-80 uppercase pt-2">(Domain & Hosting on cost)</p>
+        </h2>
+
+        <h3 class="py-6 text-2xl font-extrabold">1 Website</h3>
+
+
+        <!-- Options -->
+        <section class="flex justify-between px-6 py-2">
+          <i class="fa-regular fa-circle-check text-green-400"></i>
+          <h1>Responsiveness</h1>
+          <div>
+            <i class="fa-solid fa-desktop"></i>
+          </div>
+        </section>
+
+        <section class="flex justify-between px-6 py-2">
+          <i class="fa-regular fa-circle-check text-green-400"></i>
+          <h1>UI/UX</h1>
+          <div>
+            <i class="fas fa-palette"></i>
+          </div>
+        </section>
+
+        <section class="flex justify-between px-6 py-2">
+          <i class="fa-regular fa-circle-check text-green-400"></i>
+          <h1>Features</h1>
+          <div>
+            <i class="fas fa-sliders-h"></i>
+          </div>
+        </section>
+
+        <section class="flex justify-between px-6 py-2">
+          <i class="fa-regular fa-circle-check text-green-400"></i>
+          <h1>Illustrations</h1>
+          <div>
+            <i class="fa-solid fa-image"></i>
+          </div>
+        </section>
+
+        <section class="flex justify-between px-6 py-2">
+          <i class="fa-regular fa-circle-check text-green-400"></i>
+          <h1>Domain & Hosting</h1>
+          <div>
+            <i class="fas fa-globe"></i>
+          </div>
+        </section>
+        <section class="flex justify-between px-6 py-2">
+          <i class="fa-regular fa-circle-check text-green-400"></i>
+          <h1>Maintenance</h1>
+          <div>
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+          </div>
+        </section>
+
+        <p class="text-xs opacity-80 py-4 px-6">(Extra Pages/Features/Devices etc. will be charged accordingly)</p>
+
+        <button class="btn-grad btn_one mx-auto m-5">Hire Me<button>
       </article>
-    </article>
 
-    <script src="./script.js"></script>
+      <article id="panel_two" class="rounded-xl bg-zinc-100 text-center shadow-2xl md:hover:-translate-y-3 md:hover:scale-105 transition-all">
+        <h1 class="p-4 bg-three bg-cover bg-bottom text-2xl font-extrabold uppercase tracking-widest rounded-t-xl">Design Stuff</h1>
+
+        <h2 class="text-center text-5xl font-extrabold py-6">
+          <sup class="font-medium">₹</sup>599 <span class="text-lg opacity-80">onwards</span>
+          <p class="text-xs opacity-80 uppercase pt-2">(Soft Copy)</p>
+        </h2>
+
+        <h3 class="py-6 text-2xl font-extrabold">1 Design</h3>
+
+
+        <!-- Options -->
+        <section class="flex justify-between px-6 py-2">
+          <i class="fa-regular fa-circle-check text-green-400"></i>
+          <h1>Business/Visiting Cards</h1>
+          <div>
+            <i class="fa-regular fa-address-card"></i>
+          </div>
+        </section>
+
+        <section class="flex justify-between px-6 py-2">
+          <i class="fa-regular fa-circle-check text-green-400"></i>
+          <h1>Posters</h1>
+          <div>
+            <i class="fa-regular fa-file-image"></i>
+          </div>
+        </section>
+
+        <section class="flex justify-between px-6 py-2">
+          <i class="fa-regular fa-circle-check text-green-400"></i>
+          <h1>Designer PDF Portfolio</h1>
+          <div>
+            <i class="fa-regular fa-file-pdf"></i>
+            <div> </div>
+          </div>
+        </section>
+
+        <section class="flex justify-between px-6 py-2">
+          <i class="fa-regular fa-circle-check text-green-400"></i>
+          <h1>Menu Cards</h1>
+          <div>
+            <i class="fa-solid fa-image"></i>
+          </div>
+        </section>
+
+        <section class="flex justify-between px-6 py-2">
+          <i class="fa-regular fa-circle-check text-green-400"></i>
+          <h1>Flyers</h1>
+          <div>
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+          </div>
+        </section>
+
+        <section class="flex justify-between px-6 py-2">
+          <i class="fa-regular fa-circle-check text-green-400"></i>
+          <h1>Flyers</h1>
+          <div>
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+          </div>
+        </section>
+
+        <p class="text-xs opacity-80 py-4 px-6">(Extra Pages/Features/Devices etc. will be charged accordingly)</p>
+
+        <button class="btn-grad btn_two mx-auto m-5">Hire Me<button>
+      </article>
+    </section>
+
+  </main>
+
+  <script src="./script.js"></script>
 </body>
 
 </html>
