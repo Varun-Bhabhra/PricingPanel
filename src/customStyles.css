@@ -1,17 +1,9 @@
-﻿/* section{
-  backdrop-filter: blur(6px) saturate(180%);
-  -webkit-backdrop-filter: blur(6px) saturate(180%);
-  background-color: rgba(240, 228, 228, 0.75);
-  border-radius: 12px; 
-} */
-
-
-.btn_one {background-image: linear-gradient(to right, #fe345c 0%, #fec580  51%, #fe345c  100%)}
+﻿.btn_one {background-image: linear-gradient(to right, #fe345c 0%, #fec580  51%, #fe345c  100%)}
 
 .btn_two {background-image: linear-gradient(to right, #f12cb1 0%, #66a9f5  51%, #f12cb1  100%)}
 
 .btn-grad {
-   /* margin: 10px; */
+   /* margin: auto 6rem; */
    padding: 15px 45px;
    text-align: center;
    text-transform: uppercase;
@@ -28,3 +20,4 @@
    color: #fff;
    text-decoration: none;
  }
+
